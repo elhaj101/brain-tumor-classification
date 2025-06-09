@@ -111,3 +111,52 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Acknowledgements (optional)
 
 - Thank the people who provided support throughout this project.
+
+
+
+
+
+
+
+
+
+
+
+
+Project Considerations
+In case you want to use a spreadsheet to list your variables for the data-cleaning and feature-engineering steps, you may download the template in this link. This file will not be assessed and it will not be marked as part of your final grade, it is just an auxiliary file you can use in your workflow.
+
+In this file, you should list the variables of your chosen dataset.
+
+Requirements:
+
+You have to set at least 2 business requirements, where one should be answered using conventional data analysis and the other should be answered using ML.
+You should deliver at least one ML system that is capable of meeting a given business requirement. In that case, you may either use conventional ML or Neural Networks to predict the desired behaviour. We suggest you consider the ML tasks we covered in the course: Regression, Classification and Clustering.
+Dashboard Expectations
+Your dashboard should contain:
+
+A project summary page, showing the project dataset summary and the client's requirements.
+A page (or a set of pages) displaying how you used data analytics and/or ML to solve the business requirements.
+A page indicating your project hypothesis and how you validated it across the project.
+A technical page displaying your model performance, assuming you used ML to solve a business requirement. If you deployed an ML pipeline, you have to display your pipeline steps.
+
+
+What are the business objectives?
+
+Is there any business objective that can be answered with conventional data analysis?
+
+Does the client need a dashboard or an API endpoint?
+
+What does the client consider as a successful project outcome?
+
+Can you break down the project into Epics and User Stories?
+
+Ethical or Privacy concerns?
+
+Does the data suggest a particular model?
+
+What are the model’s inputs and intended outputs?
+
+What are the criteria for the performance goal of the predictions?
+
+How will the client benefit?
