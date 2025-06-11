@@ -324,3 +324,15 @@ Yes — **custom CNN** (from scratch).
 
 ---
 
+
+
+
+Class Imbalance Handling: Analyze class distribution and apply techniques like oversampling or data augmentation to balance the dataset.
+
+Data Augmentation: Apply transformations (rotation, flipping, etc.) to increase dataset diversity, especially for minority classes.
+
+Metadata Creation: Generate a CSV or DataFrame with image paths and labels for easy access during modeling.
+
+Data Storage: Save the processed images and metadata in a structured directory for downstream tasks.
+
+Documentation: Record all preprocessing steps for reproducibility and transparency.
