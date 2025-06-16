@@ -9,3 +9,9 @@ node_modules/
 cloudinary_python.txt
 kaggle.jsonbest_model.h5
 best_model.h5
+
+# Ignore model files
+*.h5
+*.keras
+best_model.h5
+my_model.keras
