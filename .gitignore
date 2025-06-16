@@ -7,11 +7,10 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-kaggle.jsonbest_model.h5
+kaggle.json
 best_model.h5
 
 # Ignore model files
 *.h5
 *.keras
-best_model.h5
 my_model.keras
