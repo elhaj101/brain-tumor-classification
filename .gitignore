@@ -43,3 +43,9 @@ my_model.keras
 *.keras
 best_model.h5
 my_model.keras
+
+# Ignore model files
+*.h5
+*.keras
+best_model.h5
+my_model.keras
