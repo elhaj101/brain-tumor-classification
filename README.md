@@ -27,14 +27,14 @@
 ##  Business Q&A (Revised)
 
 ### 1. **What are the business objectives?**
-* **Primary**: Train a custom CNN to detect tumors from CT scans automatically.
+* **Primary**: Train a custom CNN to detect tumors from CT scans automatically. **Achieved**: 89.66% test accuracy (0.34% short of >90% target)
 * **Secondary**: Provide intuitive visualizations and a dashboard for manual comparison of tumor vs. non-tumor images.
   Notebook: `DataVisualization.ipynb`
 
 ---
 
 ### 2. **Any objective addressable with conventional data analysis?**
-Yes — visualizations for interpretability (e.g., class distribution, prediction confidence) can be created using standard analytics to support the secondary objective.
+Yes — visualizations for interpretability (e.g., class distribution, prediction confidence) can be created using standard analytics to support the secondary objective. **Achieved**: Generated confidence score analysis, precision-recall curves, and confusion matrices.
 Notebook: `DataVisualization.ipynb`
 Libraries: `numpy`, `seaborn`, `plotly`
 
@@ -44,6 +44,7 @@ Libraries: `numpy`, `seaborn`, `plotly`
 **Dashboard only** — used to:
 * Display real-time predictions with visual explanations (e.g., heatmaps, confidence scores).
 * Enable manual comparison of tumor vs. non-tumor scans.
+**Status**: Dashboard integration artifacts generated (test_predictions.csv, evaluation_metrics.json, confusion_matrices.json)
   Tool: **Streamlit**, hosted on **Heroku**
   Notebook: `ModelingAndEvaluating.ipynb`
 
@@ -67,7 +68,7 @@ Libraries: `numpy`, `seaborn`, `plotly`
 
 ### 6. **Ethical/Privacy Considerations**
 * **Privacy**: All data is anonymized —  compliant.
-* **Bias**: Use oversampling + augmentation to reduce false negatives (especially no-tumor cases).
+* **Bias**: Data is well balanced in final splits (imbalance ratio >0.8) - no class weights needed.
   Notebook: `DataCollection.ipynb`
 
 ---
