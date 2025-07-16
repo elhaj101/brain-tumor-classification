@@ -1,0 +1,26 @@
+{
+  "cost_params": {
+    "manual_cost_per_scan": 50,
+    "automated_cost_per_scan": 7.5,
+    "radiologist_time_manual": 15,
+    "radiologist_time_automated": 2,
+    "accuracy_manual": 0.95,
+    "accuracy_automated": 0.8966
+  },
+  "sample_calculations": {
+    "1000_scans": {
+      "manual_cost": 50000,
+      "automated_cost": 7500.0,
+      "cost_savings": 42500.0,
+      "time_savings_hours": 216.66666666666666,
+      "roi_percentage": 566.6666666666667
+    },
+    "annual_10k": {
+      "manual_cost": 500000,
+      "automated_cost": 75000.0,
+      "cost_savings": 425000.0,
+      "time_savings_hours": 2166.6666666666665,
+      "roi_percentage": 566.6666666666667
+    }
+  }
+}

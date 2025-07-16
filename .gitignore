@@ -175,11 +175,11 @@ best_model.*
 my_model.*
 model_*.keras
 model_*.h5
+best_brain_tumor_model.*
 
 # Data files (large datasets)
 *.csv
 *.tsv
-*.json
 *.parquet
 *.feather
 *.hdf5
@@ -188,6 +188,28 @@ model_*.h5
 *.npz
 *.npy
 
+# Specific project data directories (keep .gitkeep files)
+data/
+inputs/
+resized_data/
+normalized_data/
+merged_data/
+output/
+brain_tumor_dataset/
+Training/
+Testing/
+glioma/
+meningioma/
+notumor/
+pituitary/
+
+# Allow specific JSON config files but exclude others
+*.json
+!roi_calculator_config.json
+!dashboard_functions.json
+!dashboard_integration_status.json
+!sample_config.json
+
 # Trained model artifacts
 training_history.json
 evaluation_metrics.json
@@ -195,12 +217,24 @@ confusion_matrices.json
 test_predictions.csv
 image_labels.csv
 
+# Performance/debugging logs
+profiling_results/
+benchmark_results/
+debug_logs/
+
 # Kaggle credentials and data
 kaggle.json
 cloudinary_python.txt
 
 # Jupyter notebook outputs
 *.ipynb_checkpoints/
+*__pycache__/
+jupyter_notebooks/__pycache__/
+.jupyter/
+.ipynb_checkpoints/
+# Keep notebook files but exclude large outputs
+# *.ipynb
+.virtual_documents/
 
 # Streamlit
 .streamlit/

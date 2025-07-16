@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-07-13T16:01:24.373439",
+  "artifacts_ready": true,
+  "missing_files": [],
+  "app_pages_supported": [
+    "page_summary.py",
+    "page_project_hypothesis.py",
+    "page_tumor_detector.py",
+    "page_visualizer.py",
+    "page_ml_performance.py"
+  ],
+  "visualization_types": [
+    "confusion_matrix_heatmap",
+    "confidence_distribution",
+    "performance_metrics_bar",
+    "roi_calculator_charts",
+    "image_montage_samples"
+  ]
+}

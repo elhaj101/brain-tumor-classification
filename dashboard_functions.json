@@ -1,0 +1,6 @@
+{
+  "performance_dashboard": "create_performance_dashboard()",
+  "image_montage": "create_image_montage_dashboard(class_type, num_samples)",
+  "roi_calculator": "create_roi_calculator_dashboard(num_scans)",
+  "status": "ready_for_streamlit_integration"
+}
